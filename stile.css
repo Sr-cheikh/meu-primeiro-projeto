@@ -86,11 +86,14 @@ body *{
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+   animation: light-off 0.2s ;
+}
+#switch button:hover{
+    outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button{
-    right: 0;
-    left: initial;
+   animation: light-on 0.2s forwards;
 }
 
 #switch span{
@@ -184,5 +187,21 @@ footer{
 
     .light{
     --bg-url: url(./asets/bg-mobile-light.jpg);
+    }
+}
+@keyframes light-on {
+    from{
+        left: 0;
+    }
+    to{
+        left: 50%;
+    }
+}
+@keyframes light-off {
+    from{
+        left: 50%;
+    }
+    to{
+        left: 0;
     }
 }
