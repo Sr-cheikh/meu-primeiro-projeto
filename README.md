@@ -1,7 +1,7 @@
 <h1 align="center"> meu primeiro projeto: DeviLinks </h1>
 
 <p align="center">
-Esse projeto foi desenvolvido durante um curso para melhor entendimento meu e dos outros alunos da Rocketseat <br/>
+Esse projeto foi desenvolvido durante um curso para melhor entendimento meu e de outros alunos da Rocketseat <br/>
 <a href="https://app.rocketseat.com.br/journey/discover/overview">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
